@@ -42,3 +42,5 @@ def display_image(data):
 # Utilisez la fonction sniff pour capturer les paquets DNS
 # Utilisez le paramètre prn pour spécifier la fonction de rappel à appeler pour chaque paquet
 sniff(prn=resolve_dns_and_capture, filter=f'dst port 53', store=0)
+
+

