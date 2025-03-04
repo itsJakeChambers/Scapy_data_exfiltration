@@ -1,36 +1,36 @@
-# Présentation du Projet Scapy
+# Scapy Project Presentation
 
-### Étape 1: Installation de Wireshark
-*Wireshark est un outil de capture et d'analyse de paquets réseau. Il nous permet de visualiser les échanges réseau lors des tests.*
+### Step 1: Installing Wireshark
+*Wireshark is a network packet capture and analysis tool. It allows us to visualize network exchanges during testing.*
 
-### Étape 2: Installation de Scapy
-*Scapy est un framework Python permettant la manipulation d'enveloppes de paquets réseau. Il est utilisé pour construire, envoyer, et analyser des paquets réseau.*
+### Step 2: Installing Scapy
+*Scapy is a Python framework for manipulating network packet envelopes. It is used to construct, send, and analyze network packets.*
 
-### Étape 3: Test avec du Texte
-*Avant de travailler avec des images, des tests préliminaires ont été effectués en envoyant et recevant du texte à l'aide de Scapy pour s'assurer que la configuration fonctionne correctement.*
+### Step 3: Testing with Text
+*Before working with images, preliminary tests were conducted by sending and receiving text using Scapy to ensure the setup was working correctly.*
 
-### Étape 4: Désactivation du Pare-feu et Ping pour Tester la Connectivité
-*Désactivation du pare-feu pour éliminer les éventuels obstacles. Ensuite, des pings ont été effectués entre les machines pour garantir une connectivité de base.*
+### Step 4: Disabling the Firewall and Pinging to Test Connectivity
+*The firewall was disabled to eliminate potential obstacles. Then, pings were performed between machines to ensure basic connectivity.*
 
-### Étape 5: Lancement du Sniffer et Ping pour une Phase de Test
-*Un sniffer est utilisé pour écouter le trafic réseau pendant que des pings sont effectués. Cela permet de vérifier la capture des paquets.*
+### Step 5: Launching the Sniffer and Pinging for a Test Phase
+*A sniffer was used to listen to network traffic while pings were being sent. This helps verify packet capture.*
 
-### Étape 6: Découper le Fichier en Plusieurs Chunks
-*Une fonction à été développer pour diviser un fichier, comme une image, en morceaux gérables, prêts à être envoyés via le réseau.*
+### Step 6: Splitting the File into Chunks
+*A function was developed to split a file, such as an image, into manageable chunks ready to be sent over the network.*
 
-### Étape 7: Création du Script
-*Un script à été crée en utilisant Scapy pour envoyer ces morceaux d'image à un autre emplacement sur le réseau.*
+### Step 7: Creating the Script
+*A script was created using Scapy to send these image chunks to another location on the network.*
 
-### Étape 8: Test d'Envoi d’Image via un Script
-*Des tests d'envoi d'image ont été effectués en utilisant le script créé, vérifiant la transmission réussie des chunks.*
+### Step 8: Testing Image Transmission via Script
+*Image transmission tests were carried out using the created script, verifying the successful transmission of chunks.*
 
-### Étape 9: Côté Receveur, Assemblage des Morceaux pour Lire et Afficher l’Image
-*Un script a été développé côté receveur pour recevoir les morceaux de l'image, les assembler et afficher l'image complète.*
+### Step 9: Receiver Side, Assembling Chunks to Read and Display the Image
+*A script was developed on the receiver side to receive the image chunks, assemble them, and display the complete image.*
 
-### Étape 10: Tests du Script et Correction d’Éventuels Bugs
-*Des tests exhaustifs ont été du script d'envoi et de réception, en identifiant et corrigeant tout problème ou bug qui pourrait survenir.*
+### Step 10: Script Testing and Bug Fixing
+*Extensive tests were performed on the sending and receiving script, identifying and fixing any issues or bugs that might arise.*
 
-### Étape 11: Réflexions sur une Stratégie Marketing
-*Une stratégie marketing pour promouvoir l'outil, a été mis en oeuvre en mettant en avant ses fonctionnalités, sa facilité d'utilisation, et ses avantages par rapport aux autres solutions existantes.*
+### Step 11: Marketing Strategy Reflections
+*A marketing strategy was developed to promote the tool, highlighting its features, ease of use, and advantages over existing solutions.*
 
-#### Ce projet combine des aspects techniques tels que la manipulation de paquets réseau, le développement de scripts avec Scapy, et des considérations plus larges telles que la connectivité réseau et la commercialisation de l'outil développé.
+#### This project combines technical aspects such as network packet manipulation, script development with Scapy, and broader considerations such as network connectivity and the commercialization of the developed tool.
